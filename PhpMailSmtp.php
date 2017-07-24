@@ -61,20 +61,14 @@ class PhpMailSmtp extends Mailer
         //All option are set in the PHPMailer class
         $mail->Mailer = $this->getContextualOption(Context::emptyContext(), "MAILER");
         
-        ///// https://github.com/PHPMailer/PHPMailer
+        // see https://github.com/PHPMailer/PHPMailer for references
         $mail->isSMTP();                                      // Set mailer to use SMTP
         $mail->SMTPAuth=true;
-        //$mail->SMTPSecure='ssl';
-        
-        
         $mail->Username= $this->getContextualOption(Context::emptyContext(), "SMTP_USER");
         $mail->Password= $this->getContextualOption(Context::emptyContext(), "SMTP_PASS");
         $mail->Host= $this->getContextualOption(Context::emptyContext(), "SMTP_HOST");
         $mail->Port= $this->getContextualOption(Context::emptyContext(), "SMTP_PORT");
         $mail->SMTPSecure= $this->getContextualOption(Context::emptyContext(), "SMTP_PREFIX");
-      
-        /////////////////
-        
         $mail->Sendmail = $this->getContextualOption(Context::emptyContext(), "SENDMAIL_PATH");
         
         $from = $this->resolveFrom($ctx, $from);

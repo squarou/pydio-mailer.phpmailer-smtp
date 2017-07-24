@@ -20,7 +20,7 @@
 */
 $mess=array(
 "PHPMailer-lite" => "PHPMailer-lite",
-"A simple mailer" => "Einfache Erweiterung zum Versand von E-Mails",
+"A simple mailer" => "Einfache Erweiterung zum Versand von E-Mails (SMTP)",
 "Mailer" => "Programm",
 "Php mailer to use (see phpmail-lite documentation)." => "Programm, das zum Versenden von E-Mails verwendet wird (siehe phpmail-lite Dokumentation).",
 "Sendmail Path" => "Pfad zu Sendmail",

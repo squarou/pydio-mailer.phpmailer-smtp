@@ -20,7 +20,7 @@
 */
 $mess=array(
 "PHPMailer-smtp" => "PHPMailer-smtp",
-"A simple mailer" => "Un mailer qui se connecte à un serveur SMTP (besoin d'identifiants.",
+"A simple mailer" => "Un mailer qui se connecte à un serveur SMTP (avec identifiants).",
 "Mailer" => "Mailer",
 "Php mailer to use (see phpmail-smtp documentation)." => "Mailer PHP à utiliser (voir la documentation de phpmail-lite ).",
 "Sendmail Path" => "Chemin de Sendmail",

@@ -19,7 +19,7 @@
 * The latest code can be found at <https://pydio.com>.
 */
 $mess=array(
-"PHPMailer-lite" => "PHPMailer-lite",
+"PHPMailer-smtp" => "PHPMailer-smtp",
 "A simple mailer" => "Einfache Erweiterung zum Versand von E-Mails (SMTP)",
 "Mailer" => "Programm",
 "Php mailer to use (see phpmail-lite documentation)." => "Programm, das zum Versenden von E-Mails verwendet wird (siehe phpmail-lite Dokumentation).",

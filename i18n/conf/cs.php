@@ -19,8 +19,8 @@
 * The latest code can be found at <https://pydio.com>.
 */
 $mess=array(
-"PHPMailer-lite" => "PHPMailer-lite",
-"A simple mailer" => "Jednoduchý mailer",
+"PHPMailer-smtp" => "PHPMailer-lite",
+"A simple mailer" => "Jednoduchý mailer (SMTP)",
 "Mailer" => "Mailer",
 "Php mailer to use (see phpmail-lite documentation)." => "Použít PHP mailer (pročtěte si phpmail-lite dokumentaci).",
 "Sendmail Path" => "Sendmail cesta",

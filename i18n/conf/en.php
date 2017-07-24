@@ -20,7 +20,7 @@
 */
 $mess=array(
 "PHPMailer-smtp" => "PHPMailer-smtp",
-"A simple mailer" => "A simple mailer",
+"A simple mailer" => "A simple mailer wich connect to SMTP server relay",
 "Mailer" => "Mailer",
 "Php mailer to use (see phpmail-smtp documentation)." => "Php mailer to use (see phpmail-smtp documentation).",
 "Sendmail Path" => "Sendmail Path",

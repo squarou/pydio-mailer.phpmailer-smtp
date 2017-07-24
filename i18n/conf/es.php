@@ -19,7 +19,7 @@
 * The latest code can be found at <https://pydio.com>.
 */
 $mess=array(
-"PHPMailer-lite" => "PHPMailer-lite",
+"PHPMailer-smtp" => "PHPMailer-smtp",
 "A simple mailer" => "Un gestor de correo simple con SMTP",
 "Mailer" => "Gestor Correo",
 "Php mailer to use (see phpmail-lite documentation)." => "Un gestor de correo PHP para usarlo revise (phpmail-lite documentation).",

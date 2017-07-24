@@ -20,7 +20,7 @@
 */
 $mess=array(
 "PHPMailer-lite" => "PHPMailer-lite",
-"A simple mailer" => "Un gestor de correo simple",
+"A simple mailer" => "Un gestor de correo simple con SMTP",
 "Mailer" => "Gestor Correo",
 "Php mailer to use (see phpmail-lite documentation)." => "Un gestor de correo PHP para usarlo revise (phpmail-lite documentation).",
 "Sendmail Path" => "Ruta Sendmail",

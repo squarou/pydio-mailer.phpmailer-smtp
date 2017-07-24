@@ -5,12 +5,11 @@
         <param name="MAILER" type="select" choices="sendmail|sendmail,mail|mail" label="CONF_MESSAGE[Mailer]" description="CONF_MESSAGE[Php mailer to use (see phpmail-smtp documentation).]" mandatory="true" default="sendmail"/>
         <param name="SENDMAIL_PATH" type="string" label="CONF_MESSAGE[Sendmail Path]" description="CONF_MESSAGE[Path to sendmail if not the default one]" mandatory="true" default="/usr/sbin/sendmail"/>
         <param name="MAIL_ENCODING" type="select" choices="quoted-printable,8bit,7bit,binary,base64" label="CONF_MESSAGE[Mails Encoding]" description="CONF_MESSAGE[Content encoding of the email. Default value should be ok for most configurations. Some specific Windows Exchange + Outlook combination may require switching to 7bit.]" default="quoted-printable"/>
-		
-        <param name="SMTP_USER" group="CONF_MESSAGE[Server]" type="string" label="Le nom utilisateur" description="CONF_MESSAGE[smtp_user]" mandatory="true" default=""/>
-        <param name="SMTP_PASS" group="CONF_MESSAGE[Server]" type="string" label="La clé de connexion" description="CONF_MESSAGE[smtp_pass]" mandatory="true" default=""/>
-        <param name="SMTP_HOST" group="CONF_MESSAGE[Server]" type="string" label="L'adresse du host" description="CONF_MESSAGE[smtp_host]" mandatory="true" default=""/>
-        <param name="SMTP_PORT" group="CONF_MESSAGE[Server]" type="string" label="Le port" description="CONF_MESSAGE[smtp_port]" mandatory="true" default=""/>
-		<param name="SMTP_PREFIX" group="CONF_MESSAGE[Server]" type="select" choices=",ssl,tls" label="Préfixe de connexion SMTP" description="CONF_MESSAGE[smtp_prefix]" mandatory="true" default=""/>
+        <param name="SMTP_USER" group="CONF_MESSAGE[Server]" type="string" label="Username" description="CONF_MESSAGE[smtp_user]" mandatory="true" default=""/>
+        <param name="SMTP_PASS" group="CONF_MESSAGE[Server]" type="password" label="Password" description="CONF_MESSAGE[smtp_pass]" mandatory="true" default=""/>
+        <param name="SMTP_HOST" group="CONF_MESSAGE[Server]" type="string" label="Host" description="CONF_MESSAGE[smtp_host]" mandatory="true" default=""/>
+        <param name="SMTP_PORT" group="CONF_MESSAGE[Server]" type="string" label="Port" description="CONF_MESSAGE[smtp_port]" mandatory="true" default=""/>
+	<param name="SMTP_PREFIX" group="CONF_MESSAGE[Server]" type="select" choices=",ssl,tls" label="SSL oo TLS" description="CONF_MESSAGE[smtp_prefix]" mandatory="true" default=""/>
     </server_settings>
     <class_definition filename="plugins/mailer.phpmailer-smtp/PhpMailSmtp.php" classname="Pydio\Mailer\Implementation\PhpMailSmtp"/>
     <client_settings>

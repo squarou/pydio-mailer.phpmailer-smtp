@@ -20,17 +20,17 @@
 */
 $mess=array(
 "PHPMailer-smtp" => "PHPMailer-smtp",
-"A simple mailer" => "A simple mailer wich connect to SMTP server relay",
+"smtp_desc" => "A simple mailer wich connect to SMTP server relay",
 "Mailer" => "Mailer",
-"Php mailer to use (see phpmail-smtp documentation)." => "Php mailer to use (see phpmail-smtp documentation).",
-"Sendmail Path" => "Sendmail Path",
-"Path to sendmail if not the default one" => "Path to sendmail if not the default one",
-"Mails Encoding" => "Mails Encoding",
-
+"smtp_doc" => "Php mailer to use (see phpmail-lite documentation).",
+"smtp_sendmail_path" => "Sendmail Path",
+"smtp_sendmail_path_desc" => "Path to sendmail if not the default one",
+"smtp_mail_encoding" => "Mails Encoding",
+"smtp_mail_encoding_desc" => "Content encoding of the email. Default value should be ok for most configurations. Some specific Windows Exchange + Outlook combination may require switching to 7bit.",
 "smtp_user" => "SMTP's username",
 "smtp_pass" => "SMTP's password",
 "smtp_host" => "Server's adress",
 "smtp_port" => "Port",
 "smtp_prefix" => "SSL or TLS (or empty)",
-"Content encoding of the email. Default value should be ok for most configurations. Some specific Windows Exchange + Outlook combination may require switching to 7bit." => "Content encoding of the email. Default value should be ok for most configurations. Some specific Windows Exchange + Outlook combination may require switching to 7bit.",
+
 );

@@ -20,16 +20,17 @@
 */
 $mess=array(
 "PHPMailer-smtp" => "PHPMailer-smtp",
-"A simple mailer" => "Un mailer qui se connecte à un serveur SMTP (avec identifiants).",
+"smtp_desc" => "Un mailer qui se connecte à un serveur SMTP (avec identifiants).",
 "Mailer" => "Mailer",
-"Php mailer to use (see phpmail-smtp documentation)." => "Mailer PHP à utiliser (voir la documentation de phpmail-lite ).",
-"Sendmail Path" => "Chemin de Sendmail",
-"Path to sendmail if not the default one" => "Chemin vers sendmail si celui par défaut ne correspond pas",
-"Mails Encoding" => "Encodage des mails",
+"smtp_doc" => "Mailer PHP à utiliser (voir la documentation de phpmail-lite ).",
+"smtp_sendmail_path" => "Chemin de Sendmail",
+"smtp_sendmail_path_desc" => "Chemin vers sendmail si celui par défaut ne correspond pas",
+"smtp_mail_encoding" => "Encodage des mails",
+"smtp_mail_encoding_desc" => "Encodage du contenu des mails. La valeur par défaut devrait convenir à la plupart des cas. Some specific Windows Exchange + Outlook combination may require switching to 7bit.",
 "smtp_user" => "L'identifiant de l'utilisateur SMTP (le plus souvent votre adresse mail).",
 "smtp_pass" => "Le mot de passe ou la clé de connexion au serveur SMTP.",
 "smtp_host" => "L'adresse du serveur SMTP",
 "smtp_port" => "Le port du serveur",
 "smtp_prefix" => "SSL ou TLS (ou vide)",
-"Content encoding of the email. Default value should be ok for most configurations. Some specific Windows Exchange + Outlook combination may require switching to 7bit." => "Encodage du contenu des mails. La valeur par défaut devrait convenir à la plupart des cas. Some specific Windows Exchange + Outlook combination may require switching to 7bit.",
+
 );

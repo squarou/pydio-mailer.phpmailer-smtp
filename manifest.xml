@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ajxp_plugin id="mailer.phpmailer-smtp" enabled="true" label="PHPMailer-smtp" description="CONF_MESSAGE[smtp_desc]" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<ajxp_plugin id="mailer.phpmailer-smtp" enabled="disable" label="PHPMailer-smtp" description="CONF_MESSAGE[smtp_desc]" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:noNamespaceSchemaLocation="file:../core.ajaxplorer/ajxp_registry.xsd">
     <server_settings>
         <param name="MAILER" type="select" choices="sendmail|sendmail,mail|mail" label="CONF_MESSAGE[Mailer]" description="CONF_MESSAGE[smtp_doc]" mandatory="true" default="sendmail"/>

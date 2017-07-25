@@ -20,11 +20,16 @@
 */
 $mess=array(
 "PHPMailer-smtp" => "PHPMailer-smtp",
-"A simple mailer" => "Einfache Erweiterung zum Versand von E-Mails (SMTP)",
+"smtp_desc" => "Einfache Erweiterung zum Versand von E-Mails (SMTP)",
 "Mailer" => "Programm",
-"Php mailer to use (see phpmail-lite documentation)." => "Programm, das zum Versenden von E-Mails verwendet wird (siehe phpmail-lite Dokumentation).",
-"Sendmail Path" => "Pfad zu Sendmail",
-"Path to sendmail if not the default one" => "Pfad zur ausführbaren Datei 'sendmail'",
-"Mails Encoding" => "E-Mail-Encoding",
-"Content encoding of the email. Default value should be ok for most configurations. Some specific Windows Exchange + Outlook combination may require switching to 7bit." => "Encoding des E-Mail-Inhalts. Der Standardwert sollte für die meisten Konfigurationen passen. Für spezielle Windows Exchange + Outlook Kombinationen ist ein Wechsel zu 7bit notwendig.",
+"smtp_doc" => "Programm, das zum Versenden von E-Mails verwendet wird (siehe phpmail-lite Dokumentation).",
+"smtp_sendmail_path" => "Pfad zu Sendmail",
+"smtp_sendmail_path_desc" => "Pfad zur ausführbaren Datei 'sendmail'",
+"smtp_mail_encoding" => "E-Mail-Encoding",
+"smtp_mail_encoding_desc" => "Encoding des E-Mail-Inhalts. Der Standardwert sollte für die meisten Konfigurationen passen. Für spezielle Windows Exchange + Outlook Kombinationen ist ein Wechsel zu 7bit notwendig.",
+"smtp_user" => "SMTP's username",
+"smtp_pass" => "SMTP's password",
+"smtp_host" => "Server's adress",
+"smtp_port" => "Port",
+"smtp_prefix" => "SSL or TLS (or empty)",
 );

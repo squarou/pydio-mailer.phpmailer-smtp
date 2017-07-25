@@ -1,7 +1,7 @@
 # pydio-mailer.phpmailer-smtp
 A plugin for Pydio to connect with SMTP credentials
 
-Initial release.
+Initial release 2017-07-24
 
 Build with original Pydio's mailer.phpmailer plugin (from version 8.0.1).
 

@@ -20,11 +20,16 @@
 */
 $mess=array(
 "PHPMailer-smtp" => "PHPMailer-smtp",
-"A simple mailer" => "Un gestor de correo simple con SMTP",
+"smtp_desc" => "Un gestor de correo simple con SMTP",
 "Mailer" => "Gestor Correo",
-"Php mailer to use (see phpmail-lite documentation)." => "Un gestor de correo PHP para usarlo revise (phpmail-lite documentation).",
-"Sendmail Path" => "Ruta Sendmail",
-"Path to sendmail if not the default one" => "Ruta a sendmail si no se usa la ruta por defecto",
-"Mails Encoding" => "Codificación del Correo",
-"Content encoding of the email. Default value should be ok for most configurations. Some specific Windows Exchange + Outlook combination may require switching to 7bit." => "Codificación del contenido del correo. El valor por defecto debería de estar bien para la mayoría de configuraciones. Algunas configuraciones Windows Exchange + Outlook puede necesitar un cambio a 7bit.",
+"smtp_doc" => "Un gestor de correo PHP para usarlo revise (phpmail-lite documentation).",
+"smtp_sendmail_path" => "Ruta Sendmail",
+"smtp_sendmail_path_desc" => "Ruta a sendmail si no se usa la ruta por defecto",
+"smtp_mail_encoding" => "Codificación del Correo",
+"smtp_mail_encoding_desc" => "Codificación del contenido del correo. El valor por defecto debería de estar bien para la mayoría de configuraciones. Algunas configuraciones Windows Exchange + Outlook puede necesitar un cambio a 7bit.",
+"smtp_user" => "SMTP's username",
+"smtp_pass" => "SMTP's password",
+"smtp_host" => "Server's adress",
+"smtp_port" => "Port",
+"smtp_prefix" => "SSL or TLS (or empty)",
 );

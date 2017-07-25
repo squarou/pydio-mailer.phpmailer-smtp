@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ajxp_plugin id="mailer.phpmailer-smtp" enabled="false" label="PHPMailer-smtp" description="CONF_MESSAGE[smtp_desc]" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:noNamespaceSchemaLocation="file:../core.ajaxplorer/ajxp_registry.xsd">
-    <server_settings>
+    	<plugin_info>
+		<core_relation packaged="false" tested_version="8.0.1"/>
+		<plugin_author>squarou</plugin_author>
+		<plugin_version>0.1.1</plugin_version>
+		<plugin_uri>https://github.com/squarou/pydio-mailer.phpmailer-smtp</plugin_uri>
+    	</plugin_info>
+	
+	<server_settings>
         <param name="MAILER" type="select" choices="sendmail|sendmail,mail|mail" label="CONF_MESSAGE[Mailer]" description="CONF_MESSAGE[smtp_doc]" mandatory="true" default="sendmail"/>
         <param name="SENDMAIL_PATH" type="string" label="CONF_MESSAGE[smtp_sendmail_path]" description="CONF_MESSAGE[smtp_sendmail_path_desc]" mandatory="true" default="/usr/sbin/sendmail"/>
         <param name="MAIL_ENCODING" type="select" choices="quoted-printable,8bit,7bit,binary,base64" label="CONF_MESSAGE[smtp_mail_encoding]" description="CONF_MESSAGE[smtp_mail_encoding_desc]" default="quoted-printable"/>
